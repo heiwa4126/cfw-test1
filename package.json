@@ -8,13 +8,14 @@
 		"start": "wrangler dev",
 		"test": "vitest",
 		"cf-typegen": "wrangler types",
-		"format": "biome format --write . && dprint fmt  && textlint --fix \"**/*.md\""
+		"format": "biome format --write . && dprint fmt  && textlint --fix \"**/*.md\"",
+		"size": "wrangler deploy --outdir tmp/bundled/ --dry-run"
 	},
 	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "^0.7.5",
-		"@cloudflare/workers-types": "^4.20250423.0",
-		"typescript": "^5.5.2",
-		"vitest": "~3.0.7",
-		"wrangler": "^4.12.1"
+		"@cloudflare/vitest-pool-workers": "^0.8.25",
+		"@cloudflare/workers-types": "^4.20250507.0",
+		"typescript": "^5.8.3",
+		"vitest": "~3.1.3",
+		"wrangler": "^4.14.1"
 	}
 }
