@@ -10,6 +10,7 @@ Cloudflare Workers の練習。
 したやつ。
 
 ```sh
+pnpm audit
 pnpm i
 pnpm dev
 pnpm size
