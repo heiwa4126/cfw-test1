@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
+		"preinstall": "pnpm audit",
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
 		"start": "wrangler dev",
@@ -15,7 +16,7 @@
 		"@cloudflare/vitest-pool-workers": "^0.12.6",
 		"@cloudflare/workers-types": "^4.20260127.0",
 		"typescript": "^5.9.3",
-		"vitest": "^4.0.18",
+		"vitest": "^3.2.4",
 		"wrangler": "^4.60.0"
 	}
 }
