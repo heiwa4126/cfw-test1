@@ -13,9 +13,9 @@ updates:
       all-dependencies:
         patterns:
           - "*"
-    ignore:
-      - dependency-name: "vitest"
-        # @cloudflare/vitest-pool-workers が vitest@"2.0.x - 3.2.x" なんで、しばらく除外
-        update-types: ["version-update:semver-major"]
+    # ignore:
+    #   - dependency-name: "vitest"
+    #     # @cloudflare/vitest-pool-workers が vitest@"2.0.x - 3.2.x" なんで、しばらく除外
+    #     update-types: ["version-update:semver-major"]
     cooldown:
       default-days: 7
