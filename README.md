@@ -12,7 +12,12 @@ Cloudflare Workers の練習。
 ```sh
 pnpm audit
 pnpm i
-pnpm dev
+pnpm run dev
+pnpm run dev:remote
+#
 pnpm size
+#
+pnpm run preview
+#
 pnpm run deploy
 ```
