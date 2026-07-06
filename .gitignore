@@ -173,3 +173,5 @@ dist
 
 tmp/
 *.tmp
+
+.github/context-mode/
