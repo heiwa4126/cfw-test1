@@ -10,14 +10,22 @@ Cloudflare Workers の練習。
 したやつ。
 
 ```sh
+# 準備
 pnpm audit
-pnpm i
+pnpm ci
+
+# ローカルで開発
 pnpm run dev
-pnpm run dev:remote
-#
+pnpm run test
+
+# ビルドサイズ確認
 pnpm size
-#
-pnpm run preview
-#
+# Cloudflare へログイン
+
+pnpm run login
+## または
+pnpm run login-no-browser
+
+# デプロイ
 pnpm run deploy
 ```
