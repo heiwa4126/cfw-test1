@@ -28,4 +28,7 @@ pnpm run login-no-browser
 
 # デプロイ
 pnpm run deploy
+
+# 楽しんだら消す
+pnpm run delete
 ```

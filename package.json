@@ -6,6 +6,7 @@
 		"preinstall": "pnpm audit",
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
+		"delete": "wrangler delete",
 		"login": "wrangler login",
 		"login-no-browser": "wrangler login --browser false",
 		"upload": "wrangler versions upload",
