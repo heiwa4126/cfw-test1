@@ -15,3 +15,7 @@ updates:
           - "*"
     cooldown:
       default-days: 7
+    ignore:
+      - dependency-name: vitest
+        versions: [">= 5.0.0"]
+        # @cloudflare/vitest-pool-workers requires vitest < 5.0.0
