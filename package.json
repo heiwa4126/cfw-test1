@@ -1,30 +1,30 @@
 {
-  "name": "cfw-test1",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "preinstall": "pnpm audit",
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "delete": "wrangler delete",
-    "login": "wrangler login",
-    "login-no-browser": "wrangler login --browser false",
-    "upload": "wrangler versions upload",
-    "preview": "wrangler versions upload",
-    "release": "wrangler versions deploy",
-    "test:watch": "vitest",
-    "test": "vitest run",
-    "cf-typegen": "wrangler types",
-    "size": "wrangler deploy --outdir tmp/bundled/ --dry-run",
-    "format": "oxfmt",
-    "lint": "oxlint",
-    "check": "oxfmt && oxlint --fix"
-  },
-  "devDependencies": {
-    "@cloudflare/vitest-plugin": "^1.4.7",
-    "@cloudflare/workers-types": "^5.20261022.1",
-    "typescript": "^7.0.2",
-    "vitest": "~5.0.5",
-    "wrangler": "^4.152.0"
-  }
+	"name": "cfw-test1",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"preinstall": "pnpm audit",
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"delete": "wrangler delete",
+		"login": "wrangler login",
+		"login-no-browser": "wrangler login --browser false",
+		"upload": "wrangler versions upload",
+		"preview": "wrangler versions upload",
+		"release": "wrangler versions deploy",
+		"test:watch": "vitest",
+		"test": "vitest run",
+		"cf-typegen": "wrangler types",
+		"size": "wrangler deploy --outdir tmp/bundled/ --dry-run",
+		"format": "oxfmt",
+		"lint": "oxlint",
+		"check": "oxfmt && oxlint --fix"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-plugin": "^1.4.7",
+		"@cloudflare/workers-types": "^5.20261023.1",
+		"typescript": "^7.0.2",
+		"vitest": "~5.0.5",
+		"wrangler": "^4.152.0"
+	}
 }
