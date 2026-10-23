@@ -29,6 +29,8 @@ pnpm run login-no-browser
 # デプロイ
 pnpm run deploy
 
+## url が出るのでブラウザで開く
+
 # 楽しんだら消す
 pnpm run delete
 ```
