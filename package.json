@@ -21,10 +21,10 @@
 		"check": "oxfmt && oxlint --fix"
 	},
 	"devDependencies": {
-		"@cloudflare/vitest-plugin": "^1.4.7",
-		"@types/node": "^26.6.5",
+		"@cloudflare/vitest-plugin": "^1.8.0",
+		"@types/node": "^26.6.6",
 		"typescript": "^7.0.2",
-		"vitest": "~5.0.5",
-		"wrangler": "^4.152.0"
+		"vitest": "~5.1.0",
+		"wrangler": "^4.160.1"
 	}
 }
